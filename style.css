@@ -203,94 +203,43 @@ p {
     justify-content: center;
 }
 
-.flex {
-    display        : flex;
-    justify-content: center;
-    margin-top     : 0.4rem;
+.main-categories {
+    width : 77%;
+    margin: 5rem auto 0 auto;
 }
 
-.one {
-    background-image: url(./images/category_1.jpg);
+.categories-title {
+    font-size  : 2.8rem;
+    font-weight: bold;
 }
 
-.two {
-    background-image: url(./images/category_2.jpg);
+.categories-images {
+    display   : flex;
+    flex-wrap : wrap;
+    margin-top: .5rem;
 }
 
-.three {
-    background-image: url(./images/category_3.png);
+.category-image {
+    background-size : cover;
+    height          : 12rem;
+    width           : 21rem;
+    border-radius   : .7rem;
+    margin          : .4rem .4rem 0 0;
 }
 
-.four {
-    background-image: url(./images/category_4.jpg);
+.category-image-text {
+    z-index  : 1;
+    color    : #fff;
+    font-size: 1.5rem;
 }
 
-.five {
-    background-image: url(./images/category_5.jpg);
-}
-
-.six {
-    background-color: #403BA1;
-
-}
-
-.one,
-.two,
-.three {
-    position         : relative;
-    margin-right     : 0.4rem;
-    width            : 22rem;
-    height           : 12rem;
-    background-repeat: no-repeat;
-    background-size  : cover;
-    text-align       : center;
-    border-radius    : 0.8rem;
-}
-
-.four,
-.five,
-.six {
-    position         : relative;
-    margin-right     : 0.4rem;
-    width            : 22rem;
-    height           : 12rem;
-    background-repeat: no-repeat;
-    background-size  : cover;
-    text-align       : center;
-    border-radius    : 0.8rem;
-}
-
-.miq,
-.abi,
-.sin {
-    position   : absolute;
-    bottom     : 50%;
-    right      : 50%;
-    transform  : translate(50%, 50%);
-    font-size  : 1.4rem;
-    font-weight: 600;
-    color      : white;
-
-}
-
-.numu,
-.kate,
-.sixxx {
-    position   : absolute;
-    bottom     : 50%;
-    right      : 50%;
-    transform  : translate(50%, 50%);
-    font-size  : 1.4rem;
-    font-weight: 600;
-    color      : white;
-}
-.sixxx{
-    text-align: left;
-}
-
-.baslig {
-
-    font-size  : 2rem;
-    font-weight: 700;
-    margin-left: 9.6rem;
+.category-cloud {
+    border-radius   : .7rem;
+    background-color: rgb(99, 96, 96);
+    opacity         : .4;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    width           : 100%;
+    height          : 100%;
 }
